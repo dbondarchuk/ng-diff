@@ -1,0 +1,24 @@
+{
+  "name": "ng-diff",,
+  "version": "0.0.1"
+  "homepage": "https://github.com/dbondarchuk/ng-diff",
+  "authors": [
+    "Dmytro Bondarchuk"
+  ],
+  "description": "Angular.js directive for visual comparing of two texts",
+  "main": "js/ng-diff.js",
+  "keywords": [
+    "angular",
+    "js",
+    "diff",
+    "ng-diff"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
