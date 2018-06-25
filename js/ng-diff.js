@@ -438,7 +438,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 angular.module('ngDiff', []).
-    directive('ngDiffCompile', function ($compile) {
+    directive('ngDiffCompile', ['$compile', function ($compile) {
         return {
             restrict: 'A',
             link: function (scope, element, attrs) {
@@ -448,7 +448,7 @@ angular.module('ngDiff', []).
                 });
             }
         }
-    }).directive('ngDiff', ['$compile', function ($compile) {
+    }]).directive('ngDiff', ['$compile', function ($compile) {
     return {
         restrict: 'EA',
         scope: {
